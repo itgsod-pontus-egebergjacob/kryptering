@@ -40,7 +40,7 @@ describe 'encryption' do
     encrypt(@cleartext, -4).should match 'PDA MQEYG XNKSJ BKT FQILO KRAN PDA HWVU ZKC'
   end
 
-  it 'should accept lower- as well ass upper-case letters' do
+  it 'should accept lower- as well as upper-case letters' do
     encrypt('The quiCk broWn fox JUMPS over the lazY dog', 3).should match 'WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ'
   end
 
